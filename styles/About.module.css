@@ -1,0 +1,29 @@
+
+.abotRealtive {
+    position: relative;
+}
+.about {
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 20vh;
+     background-color: white;
+}
+
+.title {
+    color: #01353E;
+    font-size: 48px;
+    padding-top: 20vh;
+    margin-bottom: 10vh;
+}
+.info {
+    margin-left: 10vw;
+    z-index: 1;
+
+}
+.text {
+    font-size: 26px;
+    margin-right: 92px;
+    width: 500px;
+    margin-bottom: 3vw;
+    
+}

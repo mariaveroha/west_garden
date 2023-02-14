@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #0D302C;
+    font-weight: 700;
+}
+
+.bgColor {
+    background-color: lightblue;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+}
+.mainName {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+.title {
+    font-size: 200px;
+    color: white;
+    margin-bottom: 1vw;
+    margin-top: 5%;
+}
+
+/* 
+.m {
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+}
+
+.mask {
+    width: 100%;
+    height: 100vh;
+    margin-top: 100vh;
+} */
+
+.back {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.p {
+    position: fixed;
+    z-index: -2;
+    opacity: 1;
+    overflow: hidden;
+    max-width: 100vw;
+
+}
+
+.headerContent {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 22;
+
+}
+
+/* .infoMask {
+    position: relative;
+    margin-left: 3vw;
+    z-index: 100;
+}
+
+.maskTitle {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #01353E;
+    margin: 3vw 0 3vw 0;
+    max-width: 600px;
+    line-height: 11vh;
+}
+
+.text {
+    color: #242121;
+    font-size: 38px;
+    margin-top: 1.2vw;
+    margin-bottom: 3vw;
+    margin-right: 6vw;
+    max-width: 50vw;
+    } */

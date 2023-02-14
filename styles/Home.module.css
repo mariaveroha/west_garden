@@ -1,0 +1,7 @@
+.mainContainer {
+    max-width: 100vw;
+}
+
+.main {
+    perspective: 1px;
+}
